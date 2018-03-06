@@ -1,4 +1,6 @@
-from flask import Flask
+from flask import Flask, flash, redirect, render_template, request, session, abort
+from random import randint
+
 application = Flask(__name__)
 
 @application.route("/")
