@@ -2,7 +2,7 @@ from flask import Flask
 application = Flask(__name__)
 
 @application.route("/")
-def hello(name):
+def hello():
 #    return name
     quotes = [ "'If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.' -- John Louis von Neumann ",
                "'Computer science is no more about computers than astronomy is about telescopes' --  Edsger Dijkstra ",
